@@ -34,6 +34,7 @@
     align-items: center;
     background-color: #ffffff;
     justify-content: space-between;
+    box-shadow: 0 2px 2px #999;
 	
 }
 .global-nav h1 a{
@@ -49,6 +50,7 @@
     display: flex;
     list-style: none;
     align-items: center;
+    font-family: 'impact', sans-serif;
 }
 .global-nav .menu ul a{
     color: var(--primary-050);
@@ -79,11 +81,20 @@ section {
 
 
 #sec1 {
-    /*background-image: url("01.jpg");*/
+    background-image: url("image/top1.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    color: var(m1);
+    color: var(--secondary-01);
+    text-shadow    : 
+       2px  2px 3px #000000,
+      -2px  2px 3px #000000,
+       2px -2px 3px #000000,
+      -2px -2px 3px #000000,
+       2px  0px 3px #000000,
+       0px  2px 3px #000000,
+      -2px  0px 3px #000000,
+       0px -2px 3px #000000; 
 	
 }
 #sec2 iframe{
