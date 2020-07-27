@@ -8,8 +8,8 @@
     box-sizing: inherit;
 }
 :root {
-    --primary-050: #FFBDCD; /* サンプル */
-    --secondary-050: #fff6a8; /* サンプル */
+    --primary-01: #07270e; 
+    --secondary-01: #d8e2da;
     --dark-087: rgba(0,0,0,0.87);
     --dark-054: rgba(0,0,0,0.54);
     --dark-026: rgba(0,0,0,0.26);
@@ -38,9 +38,9 @@
 }
 .global-nav h1 a{
     font-size: 1.5rem;
-    font-family: 'Pacifico', cursive;
+    font-family: 'impact', sans-serif;
     margin-left: 1rem;
-    color: var(--primary-050);
+    color: var(--primary-01);
     text-shadow: 1px 1px 0 var(--dark-026);
 	letter-spacing: 2px;
 	text-decoration: none;
@@ -63,9 +63,9 @@
     border-bottom: 4px solid transparent;
 }
 .global-nav .menu ul a:hover {
-    background-color: var(--primary-050);
-    color: var(--secondary-050);
-    border-bottom: 4px solid var(--secondary-050);
+    background-color: var(--primary-01);
+    color: var(--secondary-01);
+    border-bottom: 4px solid var(--secondary-01);
 }
 
 section {
