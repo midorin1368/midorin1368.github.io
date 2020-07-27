@@ -3,6 +3,7 @@ const image2 = document.getElementById("image2");
 const image3 = document.getElementById("image3");
 let stat = false;
 
+
 function func1() {
     if(stat) {
     image1.classList.add('off');
