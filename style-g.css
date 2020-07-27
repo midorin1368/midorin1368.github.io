@@ -8,8 +8,8 @@
     box-sizing: inherit;
 }
 :root {
-    --primary-050: #FFBDCD; 
-    --secondary-050: #fff6a8;
+    --primary-01: #07270e; 
+    --secondary-01: #d8e2da;
     --dark-087: rgba(0,0,0,0.87);
     --dark-054: rgba(0,0,0,0.54);
     --dark-026: rgba(0,0,0,0.26);
@@ -32,16 +32,16 @@
     left: 0;
     width: 100%;
     align-items: center;
-    background-color: #00ff550a;
+    background-color: #07270e;
     justify-content: space-between;
     z-index: 10;
 	
 }
 .global-nav h1 a{
     font-size: 1.5rem;
-    font-family: 'Pacifico', cursive;
+    font-family: 'impact', sans-serif;
     margin-left: 1rem;
-    color: var(m1);
+    color: var(--secondary-01);;
     text-shadow: 1px 1px 0 var(--dark-026);
 	letter-spacing: 2px;
 	text-decoration: none;
@@ -50,10 +50,10 @@
     display: flex;
     list-style: none;
     align-items: center;
-    font-family: 'Pacifico', cursive;
+    font-family: 'impact', sans-serif;
 }
 .global-nav .menu ul a{
-    color: var(m1);
+    color: var(--secondary-01);;
     text-decoration: none;
     display: inline-block;
     line-height: 1;
@@ -65,12 +65,12 @@
     border-bottom: 4px solid transparent;
 }
 .global-nav .menu ul a:hover {
-    background-color: var(--primary-050);
-    color: var(--secondary-050);
-    border-bottom: 4px solid var(--secondary-050);
+    background-color: var(--primary-01);
+    color: var(--secondary-01);
+    border-bottom: 4px solid var(--secondary-01);
 }
 .global-nav .menu ul a:link,a:visited,a:active  {
-	 color: var(--primary-050);
+	 color: var(--primary-01);
 }
 
 section {
@@ -80,9 +80,9 @@ section {
     font-size: 5rem;
 }
 .title {
-	font-size: 1.5rem;
-	font-family: 'Pacifico', cursive;
-	color: #FFBDCD;
+	font-size: 2rem;
+	font-family: 'impact', sans-serif;
+	color: var(--primary-01);
 	margin: 80px 0px 3rem 20px;
 	padding: 0;
 }
@@ -96,10 +96,13 @@ section {
 
 .ga-item{
     text-align: center;
-    padding: 10px 80px;
+    padding: 20px 80px;
+    border:  #000 solid;
+    border-width: 1px 0;;
     display: flex;
     margin-bottom: 3rem;
 }
+
 .ga-photo img{
 	height: 180px;
 	width: 320px;
