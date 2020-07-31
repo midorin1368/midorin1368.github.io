@@ -54,7 +54,7 @@
     font-family: 'impact', sans-serif;
 }
 .global-nav .menu ul a{
-    color: var(--primary-050);
+    color: var(--primary-01);
     text-decoration: none;
     display: inline-block;
     line-height: 1;
@@ -86,13 +86,6 @@ section {
 	color: var(--primary-01);
 	margin: 80px 0px 3rem 20px;
 	padding: 0;
-}
-
-.ga h3{
-    font-size: 2rem;
-    text-align: center;
-    margin-top: 70px;
-    color:#999;
 }
 
 .ga-item{
