@@ -101,6 +101,10 @@ section {
        0px -2px 3px #000000; 
 	
 }
+#sec2{
+    margin-top: -77px;
+    padding-top: 77px;
+}
 #sec2 p{
     font-family: 'impact', sans-serif;
     font-size: 2rem;
@@ -131,7 +135,8 @@ section {
     color: var(--primary-01);
     background-color: var(--secondary-01);
     padding: 10px;
-    border: 3px #000 solid; 
+    border: 3px #000 solid;
+    text-align: center; 
 }
 
 .ga p:hover,p:link,p:visited,p:active{
@@ -139,19 +144,18 @@ section {
     text-decoration: none;
 }
 
-.border{
-    height: 2px;
-    border: 0.5px var(--primary-01) solid;
-
-}
-
 #sec3{
+    margin-top: -77px;
+    padding-top: 77px;
+}
+#sec3 .p{
     background-color: var(--primary-01);
 }
-#sec3 p{
+#sec3 .p p{
     font-family: 'impact', sans-serif;
     font-size: 2rem;
     color: var(--secondary-01);
+    padding-top: 10px;
     padding-left: 20px;
     text-decoration: none;
     top: 5%;
@@ -174,8 +178,12 @@ section {
     font-size: 1rem;
     color: var(--secondary-01);
 }
-.pro ul li a:hover,a:link,a:visited,a:active{
+.pro ul li a:link,a:visited,a:active{
     color: var(--secondary-01);
     text-decoration: none;
     text-align: center;
+}
+.pro ul li a:hover{
+    text-decoration: underline var(--secondary-01) solid;
+
 }
